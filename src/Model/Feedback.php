@@ -15,4 +15,15 @@ class Feedback
         $this->nota = $nota;
         $this->depoimento = $depoimento;
     }
+
+    public function recuperarNota()
+    {
+
+        return $this->nota;
+    }
+
+    public function recuperarDepoimento()
+    {
+        return $this->depoimento;
+    }
 }
