@@ -17,7 +17,6 @@ class Curso implements Pontuavel
 
     public function receberFeedback(Feedback $feedback): void
     {
-
         $this->feedbacks[] = $feedback;
     }
 
@@ -36,7 +35,7 @@ class Curso implements Pontuavel
         return $this->videos;
     }
 
-    public function recuperaPontuacao(): int
+    public function recuperarPontuacao(): int
     {
         return 100;
     }

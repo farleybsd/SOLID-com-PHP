@@ -15,3 +15,18 @@ Devemos controlar o nível de acoplamento na nossa aplicação (falaremos mais s
 
 ° -> Single Responsibility Principle 
 Que, segundo o Princípio de Responsabilidade Única (SRP), uma classe deve ter um e apenas um motivo para ser alterada
+
+° -> Aberto/Fechado 
+Que cada classe deve conhecer e ser responsável por suas próprias regras de negócio
+Que o princípio Aberto/Fechado (OCP) diz que um sistema deve ser aberto para a extensão, mas fechado para a modificação
+Isso significa que devemos poder criar novas funcionalidades e estender o sistema sem precisar modificar muitas classes já existentes
+Uma classe que tende a crescer "para sempre" é uma forte candidata a sofrer alguma espécie de refatoração
+
+° -> Substituição de Liskov 
+
+Que, embora a assinatura de um método esteja sendo respeitada em uma herança, ainda assim podemos estar quebrando algum contrato
+Que o Princípio de Substituição de Liskov (LSP) diz que devemos poder substituir classes base por suas classes derivadas em qualquer lugar, sem problema
+Que não devemos alterar um comportamento de um método estendido, mesmo que a assinatura seja mantida
+
+Parei aqui Assistindo com simplicidade
+//https://cursos.alura.com.br/course/solid-php-principios-orientacao-a-objetos/task/59299
