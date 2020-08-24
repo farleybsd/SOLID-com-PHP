@@ -28,5 +28,11 @@ Que, embora a assinatura de um método esteja sendo respeitada em uma herança, 
 Que o Princípio de Substituição de Liskov (LSP) diz que devemos poder substituir classes base por suas classes derivadas em qualquer lugar, sem problema
 Que não devemos alterar um comportamento de um método estendido, mesmo que a assinatura seja mantida
 
-Parei aqui Assistindo com simplicidade
-//https://cursos.alura.com.br/course/solid-php-principios-orientacao-a-objetos/task/59299
+
+1 ° -> Single Responsibility Principle
+2 ° -> Open / Closed Principle
+3 ° -> Liskov substitution Principle
+4 º -> Interface Segregration Principle
+5 º -> Dependency Inversion Principle
+
+//https://blog.jgrossi.com/
